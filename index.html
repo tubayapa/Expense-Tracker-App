@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expense Tracker App</title>
+  </head>
+  <body>
+    <h2 class="heading">Expense Tracker App</h2>
+    <div class="container">
+      <h3 class="greet">
+        Welcome <input type="text" id="name-input" placeholder="Enter your name" />
+      </h3>
+      <form>
+        <div class="double">
+          <div class="form-expense">
+            <label>Expense:</label>
+            <input id="expense" type="text" />
+          </div>
+
+          <div class="form-price">
+            <label>Price:</label>
+            <input id="price" type="number" />
+          </div>
+        </div>
+
+        <div class="double">
+          <div class="form-status">
+            <input id="input-status" type="checkbox" />
+            <label for="input-status">Payed</label>
+          </div>
+          <button id="add-btn" class="add-btn">Add</button>
+        </div>
+      </form>
+
+      <!-- total part -->
+
+      <div class="total">Total Spend: <span id="total-info">0</span>&#163;</div>
+
+      <select id="filter-select">
+        <option value="all">All</option>
+        <option value="payed">Payed</option>
+        <option value="not-payed">Not Payed</option>     
+      </select>
+
+      <!-- list part -->
+
+      <div class="list" id="list"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
