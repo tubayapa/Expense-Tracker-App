@@ -2,9 +2,9 @@
 
 A simple web-based expense tracker application built using HTML, CSS, and JavaScript.
 
-## Screenshots
+## Gif
 
-![ezgif com-video-to-gif-converter](https://github.com/tubayapa/Expense-Tracker-App/assets/147662888/0285ad35-c8ce-4cad-990a-8ac5a38ddd54)
+![ScreenRecording2024-01-07at21 17 00-ezgif com-video-to-gif-converter](https://github.com/tubayapa/Expense-Tracker-App/assets/147662888/a2261285-ee63-439e-a89d-238a86239b76)
 
 
 ## Features
